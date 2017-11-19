@@ -1,0 +1,14 @@
+.image{
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin: auto;
+}
+.centered {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:200%
+}
