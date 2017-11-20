@@ -23,7 +23,9 @@ nav ul li a{
   color:white;
   
 }
-
+.bigtxt{
+  font-size: 400%
+}
 .centered {
   position: absolute;
   color: white;
