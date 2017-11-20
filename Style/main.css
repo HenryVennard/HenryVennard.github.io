@@ -2,6 +2,9 @@ body {
   margin: 0;
   background-image: url(https://s18.postimg.org/4te38md3t/mike-yukhtenko-111373.jpg);
   background-attachment: fixed;
+  no-repeat center center;
+   background-size: cover;
+   height: 570px;
 }
 
 header {
@@ -24,7 +27,7 @@ nav ul li a{
 .centered {
   position: absolute;
   color: white;
-  top: 90%;
+  top: 250px;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 200%;
