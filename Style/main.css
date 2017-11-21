@@ -4,8 +4,14 @@ body {
   background-attachment: fixed;
   no-repeat center center;
    background-size: cover;
-   height: 570px;
 }
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+  }
+  p {
+    font-family: "Barlow Condensed", sans-serif;
+  }
 
 header {
   background: black;
@@ -16,22 +22,38 @@ header {
 nav ul li {
   list-style-type: none;
   display: inline-block;
-  padding: 5px 50px;
+  padding: 4px 50px;
   margin: 0px;
 }
 nav ul li a{
   color:white;
   
 }
-.bigtxt{
-  font-size: 300%;
+.box{
+  width:650px;
+  background: rgba(0,0,0,0.4);
+  text-align:center;
+  margin:auto;
+  margin-top:5%;
+  color:white;
 }
-.centered {
-  position: absolute;
-  color: white;
-  top: 250px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 200%;
-  text-align: center;
+ul{
+ margin:0;
+ padding:0;
+}
+.box li{
+  display: inline-block;
+  margin: 0px 20px 0px 20px;
+    list-style: none;
+}
+.box li a{
+  color:white;
+  text-decoration:none;
+  font-size:60px;
+}
+.box h{
+font-size:450%;
+}
+.box p{
+  font-size:125%
 }
