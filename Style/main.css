@@ -1,4 +1,4 @@
-body {
+.back {
   margin: 0;
   background-image: url(https://s17.postimg.org/g47akmlbj/michael-benz-189972.jpg);
   background-attachment: fixed;
@@ -14,8 +14,7 @@ h1 {
   }
 
 header {
-  background: black;
-  margin: 0;
+  margin: 0px;
   padding: 10px;
 }
 
@@ -34,8 +33,8 @@ nav ul li a{
   background: rgba(0,0,0,0.4);
   text-align:center;
   margin:auto;
-  margin-top:5%;
-  margin-bottom:5%;
+  margin-top:20%;
+  margin-bottom:15%;
   color:white;
 }
 ul{
@@ -61,17 +60,22 @@ font-size:450%;
 
 .about {
   margin: 0;
-  padding: 150px 20px;
+  padding: 70px 20px;
   height:400px;
   width: 100%;
   background-color: rgb(1, 13, 25);
   color:white;
 }
 
-.content {
+.about-content {
   max-width: 900px;
   margin: auto;
 }
 .img-circle{
   border-radius: 50%;
+}
+
+.project-title{
+  padding:5px;
+  margin: 20px 10px 10px 0px;
 }
