@@ -35,6 +35,7 @@ nav ul li a{
   text-align:center;
   margin:auto;
   margin-top:5%;
+  margin-bottom:20%;
   color:white;
 }
 ul{
@@ -56,4 +57,21 @@ font-size:450%;
 }
 .box p{
   font-size:125%
+}
+
+.about {
+  margin: 0;
+  padding: 150px 20px;
+  height:400px;
+  width: 100%;
+  background-color: rgb(1, 13, 25);
+  color:white;
+}
+
+.content {
+  max-width: 900px;
+  margin: auto;
+}
+.img-circle{
+  border-radius: 50%;
 }
