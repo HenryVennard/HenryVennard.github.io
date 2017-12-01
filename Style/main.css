@@ -58,7 +58,7 @@ font-size:450%;
   font-size:125%
 }
 
-.about {
+.aboutGeneral {
   margin: 0;
   padding: 70px 20px;
   height:400px;
@@ -67,15 +67,15 @@ font-size:450%;
   color:white;
 }
 
-.about-content {
+.aboutContent {
   max-width: 900px;
   margin: auto;
 }
-.img-circle{
+.imgCircle{
   border-radius: 50%;
 }
 
-.project-title{
+.projectTitle{
   padding:5px;
   margin: 20px 10px 10px 0px;
 }
