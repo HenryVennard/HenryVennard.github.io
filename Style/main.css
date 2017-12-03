@@ -1,0 +1,81 @@
+.back {
+  margin: 0;
+  background-image: url(https://s17.postimg.org/g47akmlbj/michael-benz-189972.jpg);
+  background-attachment: fixed;
+  no-repeat center center;
+   background-size: cover;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+  }
+  p {
+    font-family: "Barlow Condensed", sans-serif;
+  }
+
+header {
+  margin: 0px;
+  padding: 10px;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 4px 50px;
+  margin: 0px;
+}
+nav ul li a{
+  color:white;
+  
+}
+.box{
+  width:650px;
+  background: rgba(0,0,0,0.4);
+  text-align:center;
+  margin:auto;
+  margin-top:20%;
+  margin-bottom:15%;
+  color:white;
+}
+ul{
+ margin:0;
+ padding:0;
+}
+.box li{
+  display: inline-block;
+  margin: 0px 20px 0px 20px;
+    list-style: none;
+}
+.box li a{
+  color:white;
+  text-decoration:none;
+  font-size:60px;
+}
+.box h{
+font-size:450%;
+}
+.box p{
+  font-size:125%
+}
+
+.aboutGeneral {
+  margin: 0;
+  padding: 70px 20px;
+  height:400px;
+  width: 100%;
+  background-color: rgb(1, 13, 25);
+  color:white;
+}
+
+.aboutContent {
+  max-width: 900px;
+  margin: auto;
+}
+.imgCircle{
+  border-radius: 50%;
+}
+
+.projectTitle{
+  padding:5px;
+  margin: 20px 10px 10px 0px;
+}
