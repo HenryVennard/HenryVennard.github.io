@@ -2,7 +2,6 @@
   margin: 0;
   background-image: url(https://s17.postimg.org/g47akmlbj/michael-benz-189972.jpg);
   background-attachment: fixed;
-  no-repeat center center;
    background-size: cover;
 }
 
@@ -85,3 +84,8 @@ font-size:450%;
   height: 200px;
 }
 
+.resumeGeneral {
+  background-color: rgb(1, 13, 25);
+  padding: 80px 20px;
+  color: white;
+}
