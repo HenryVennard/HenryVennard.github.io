@@ -57,7 +57,7 @@ font-size:450%;
   font-size:125%
 }
 
-.aboutGeneral {
+#about {
   margin: 0;
   padding: 70px 20px;
   height:400px;
@@ -79,13 +79,21 @@ font-size:450%;
   margin: 20px 10px 10px 0px;
 }
 
-.container img{
+#projects img{
   width: 200px;
   height: 200px;
 }
 
-.resumeGeneral {
+#resume {
   background-color: rgb(1, 13, 25);
   padding: 80px 20px;
   color: white;
+}
+
+#resume img{
+  width:80%;
+  margin:10%;
+}
+#snakeBox{
+  border: solid red 2px;
 }

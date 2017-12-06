@@ -1,14 +1,14 @@
 <html>
-<!-- css reference -->
-<link type="text/css" rel="stylesheet" href="Style/main.css" />
-<!-- bootstrap stuff -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 <head>
   <title> Henry Vennard's Personal Website </title>
+
   <!-- Font-Awesome -->
   <meta charset="utf-8">
   <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
-  <link rel="stylesheet" href="style.css">
+  <!-- css reference -->
+  <link type="text/css" rel="stylesheet" href="style/main.css" />
+  <!-- bootstrap stuff -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 </head>
 <!-- Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:300|Montserrat:500" rel="stylesheet">
@@ -48,7 +48,7 @@
   </header>
   <!-- END Home -->
   <!-- About -->
-  <div id="about" class="aboutGeneral">
+  <div id="about">
     <div class="aboutContent">
       <div class="row">
         <div class="col-sm-4">
@@ -63,52 +63,59 @@
   </div>
   <!-- END About -->
   <!-- Portfolio -->
-  <div id="projects" class="container">
-    <div class="row">
-      <div class="col-md-12 projectTitle">
-        <h1> Projects </h1>
-      </div>
-      <div class="col-md-4">
-        <div class="thumbnail">
-          <a href="#">
-            <img src="images/lazer.jpg" alt="Sample Project" style="width:100%">
-            <div class="caption">
-              <p>Laser Guitar</p>
-            </div>
-          </a>
+  <div id="projects">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 ">
+          <h1> Projects </h1>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="thumbnail">
-          <a href="#">
-            <img src="images/grigri2.png" alt="Sample Project" style="width:100%">
-            <div class="caption">
-              <p>Solidworks Project</p>
-            </div>
-          </a>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="#">
+              <img src="images/lazer.jpg" alt="Sample Project" style="width:100%">
+              <div class="caption">
+                <p>Laser Guitar</p>
+              </div>
+            </a>
+          </div>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="thumbnail">
-          <a href="#">
-            <img src="images/ilyawebsite.jpg" alt="Sample Project" style="width:100%">
-            <div class="caption">
-              <p>This Website</p>
-            </div>
-          </a>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="#">
+              <img src="images/grigri2.png" alt="Sample Project" style="width:100%">
+              <div class="caption">
+                <p>Solidworks Project</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="#">
+              <img src="images/ilyawebsite.jpg" alt="Sample Project" style="width:100%">
+              <div class="caption">
+                <p>This Website</p>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </div>
   </div>
   <!-- END Projects -->
   <!-- Resume -->
-  <div class = "resumeGeneral" id ="resume">
-    <div class = "row container">
-      <div class = "col-md-12">
+  <div id="resume">
+    <div class = "container">
+      <div class="row">
         <h1>Resume</h1>
-        <img src= "images/resume.jpg" alt="Sample Resume">
+      </div>
+      <div class = "col-md-12">
+        <img src="images/resume.jpeg" alt="Sample Resume">
+      </div>
+      <div id="snakeGame"></div>
     </div>
   </div>
+
   <!-- END resume-->
   <!-- Bootstrap scripts
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -116,5 +123,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 -->
 </body>
-
+<!-- Javascript -->
+<script type="text/javascript" src="d3/d3.js"></script>
+<script type="text/javascript" src="app.js"></script>
 </html>
