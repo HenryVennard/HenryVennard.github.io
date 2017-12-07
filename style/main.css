@@ -108,3 +108,8 @@ footer{
   background-color: rgb(1, 13, 25);
   color:white;
 }
+
+.footer{
+  opacity: .5;
+}
+}

@@ -16,7 +16,7 @@
   <!-- navbar -->
   <nav class="navbar fixed-top bg-dark">
     <ul class="nav">
-      <li class=" active nav-item">
+      <li class="active nav-item">
         <a class="nav-link active" href="#home">Home</a>
       </li>
       <li class="nav-item">
@@ -62,7 +62,7 @@
     </div>
   </div>
   <!-- END About -->
-  <!-- Portfolio -->
+  <!-- Projects -->
   <div id="projects">
     <div class="container">
       <div class="row">
@@ -70,8 +70,9 @@
           <h1> Projects </h1>
         </div>
         <div class="col-md-4">
-          <div class="thumbnail">
-              <img src="images/lazer.jpg" alt="Sample Project" style="width:100%">
+          <div class="btn thumbnail">
+            <a data-toggle="collapse" href="#multiCollapse1" aria-expanded="false" aria-controls="multiCollapse1">   <img src="images/lazer.jpg" alt="Sample Project" style="width:100%"> </a>
+            
               <div class="caption">
                 <p>Laser Guitar</p>
               </div>
@@ -79,8 +80,8 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="thumbnail">
-              <img src="images/grigri2.png" alt="Sample Project" style="width:100%">
+          <div class= "btn thumbnail">
+              <a data-toggle="collapse" href="#multiCollapse2" aria-expanded="false" aria-controls="multiCollapseExample2"> <img src="images/grigri2.png" alt="Sample Project" style="width:100%"> </a>
               <div class="caption">
                 <p>Solidworks Project</p>
               </div>
@@ -88,8 +89,8 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="thumbnail">
-              <img src="images/ilyawebsite.jpg" alt="Sample Project" style="width:100%">
+          <div class="btn thumbnail">
+            <a data-toggle="collapse" href="#multiCollapse3" aria-expanded="false" aria-controls="multiCollapse3"> <img src="images/ilyawebsite.jpg" alt="Sample Project" style="width:100%"> </a>
               <div class="caption">
                 <p>This Website</p>
               </div>
@@ -97,8 +98,33 @@
           </div>
         </div>
       </div>
+       <!-- Dropdowns-->
+<div class="row">
+  <div class="col">
+    <div class="collapse multi-collapse" id="multiCollapse1">
+      <div class="card card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+      </div>
     </div>
   </div>
+  <div class="col">
+    <div class="collapse multi-collapse" id="multiCollapse2">
+      <div class="card card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="collapse multi-collapse" id="multiCollapse3">
+      <div class="card card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+  
   <!-- END Projects -->
   <!-- Resume -->
   <div id="resume">
@@ -117,16 +143,21 @@
   </div>
 
   <!-- END resume-->
-  <footer> 
-    © Henry Vennard 
+  <footer>
+    <div class = "footer">
+        © Henry Vennard 
+        <a href="https://www.linkedin.com/in/henryvennard/"> <i class="fa fa-linkedin-square" aria-hidden="true"></i> </a> 
+        <a href="https://github.com/HenryVennard"> <i class="fa fa-github-square" aria-hidden="true"></i></a>
+    </div>
   </footer>
-  <!-- Bootstrap scripts
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
--->
+  
+
 </body>
 <!-- Javascript -->
 <script type="text/javascript" src="d3/d3.js"></script>
 <script type="text/javascript" src="app.js"></script>
+<!-- Bootstrap scripts -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 </html>
