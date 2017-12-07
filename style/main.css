@@ -102,3 +102,9 @@ font-size:450%;
 #snakeBox{
   border: solid red 2px;
 }
+
+footer{
+  margin: 0;
+  background-color: rgb(1, 13, 25);
+  color:white;
+}
