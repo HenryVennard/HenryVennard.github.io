@@ -1,12 +1,11 @@
 
 // Snake Game 
-// Math.random""   random number 0-1
-// Math.round()   round to whole
 var counter = 0;
 var delay = 10;
 var boxWidth = 500;
 var boxHeight = 300;
 var foodCord = Math.round(Math.random()*boxWidth);
+var index = 0;
 
 /*Fixing food spawning on the sides
 if (foodCord <10 or >(boxWidth-10)) {
@@ -28,15 +27,24 @@ function gameLoop() {
 			foodCord = Math.round(Math.random()*boxWidth);
 		console.log("nomnom")
 
+		//Make new snake body with index
 		d3.select("#snakeBox")
-		.append("rect")
-		.attr("class", "body")
-		.attr("width", 10)
-		.attr("height", 10)
-		.attr("fill", "green")
-		.attr("x", counter - 1);
+			.append("rect")
+			.attr("class", "body"+index)
+			.attr("width", 10)
+			.attr("height", 10)
+			.attr("fill", "green")
+		console.log(index)
 	}
-		
+	// index.push([newindex])
+	
+	/* for (var i = index.length - 1; i >= 0; i--) {
+			Things[i]
+		}	
+		for (var i = 0; i < Things.length; i++) {
+			Things[i]
+		}
+		*/
 //is snake outside box lose man
 	if (counter > boxWidth) {
 		console.log("Snakes outta the box!")

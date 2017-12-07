@@ -95,6 +95,8 @@ font-size:450%;
 #resume img{
   width:80%;
   background-position: center;
+  display: block;
+  margin: 20px auto;
 }
 #snakeBox{
   border: solid red 2px;
