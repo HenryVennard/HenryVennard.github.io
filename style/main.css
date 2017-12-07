@@ -1,9 +1,10 @@
 .back {
   margin: 0;
-  background-image: url(https://s17.postimg.org/g47akmlbj/michael-benz-189972.jpg);
+  background-image: url(back.jpg);
   background-attachment: fixed;
   background-size: cover;
 }
+/*https://s17.postimg.org/g47akmlbj/michael-benz-189972.jpg*/
 
 h1 {
     font-family: "Montserrat", sans-serif;
