@@ -4,7 +4,6 @@
   background-attachment: fixed;
   background-size: cover;
 }
-/*https://s17.postimg.org/g47akmlbj/michael-benz-189972.jpg*/
 
 h1 {
     font-family: "Montserrat", sans-serif;
@@ -111,5 +110,10 @@ footer{
 
 .footer{
   opacity: .5;
+  color:white;
+  text-decoration:none;
 }
+
+.card p{
+  font-family: "Montserrat", sans-serif;
 }
